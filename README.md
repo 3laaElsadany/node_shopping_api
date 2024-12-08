@@ -44,20 +44,22 @@ The Node Shopping API is a RESTful service built with Node.js and Express.js, de
 ## API Endpoints
 
 - **Users**:
-  - `POST /users/register`: Register a new user.
-  - `POST /users/login`: Authenticate a user.
-  - `GET /users/:id`: Retrieve user details.
+  - `POST /users/signup`: Sign Up a new user.
+  - `GET /users/signin`: Authenticate a user.
+  - `PATCH /users/updateuser/:id`: Update user details.
+  - `DELETE /users/deleteuser/:id`: Delete user.
 
 - **Products**:
   - `GET /products`: List all products.
-  - `POST /products`: Add a new product.
-  - `PUT /products/:id`: Update product details.
+  - `GET /products/:id`: Get specific product.
+  - `POST /products/addproduct`: Add a new product.
+  - `Patch /products/:id`: Update product details.
   - `DELETE /products/:id`: Delete a product.
 
 - **Orders**:
-  - `POST /orders`: Create a new order.
-  - `GET /orders/:id`: Retrieve order details.
-  - `PUT /orders/:id`: Update an order.
+  - `GET /orders`: List all orders.
+  - `POST /orders/addorder`: Create a new order.
+  - `Patch /orders/updateorder/:id`: Update an order.
   - `DELETE /orders/:id`: Cancel an order.
 
 ## Contributing
