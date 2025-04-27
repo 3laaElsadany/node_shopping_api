@@ -14,13 +14,13 @@ The Node Shopping API is a RESTful service built with Node.js and Express.js, de
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/3laaElsadany/node-shopping-api.git
+   git clone https://github.com/3laaElsadany/node_shopping_api.git
    ```
 
 2. **Navigate to the project directory**:
 
    ```bash
-   cd node-shopping-api
+   cd node_shopping_api
    ```
 
 3. **Install dependencies**:
